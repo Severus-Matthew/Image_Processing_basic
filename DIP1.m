@@ -2,7 +2,7 @@
 figure(1)
 I = imread("Img.jpg");
 J= imread("img2.jpg");
-% resizing image so that it has same values.
+% Reizing image so that it has same values.
 J1 = imresize(J , [194 259]);
 whos I
 whos J
